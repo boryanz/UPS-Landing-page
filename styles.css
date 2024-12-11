@@ -1,0 +1,123 @@
+body {
+    background-color: #1E1E1E;
+}
+
+.hero-section {
+    padding: 30px;
+}
+
+span {
+    color: #05AC77;
+}
+
+.title {
+    font-size: 100px;
+    font-family: 'Roboto';
+    font-style: bold;
+    color: #FFFFFF;
+}
+
+.description {
+    width: 50%;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.features-container {
+    padding-top: 30px;
+    align-items: stretch;
+    justify-content: space-evenly;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    transition: all 2s;
+}
+
+.feature1 {
+    padding: 30px;
+    flex-grow: 1;
+    flex: 1 1 0px;
+    border: 1px solid #7e7e7e;
+    text-align: center;
+    font-size: x-large;
+    color: #FFFFFF;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+.feature2 {
+    padding: 30px;
+    flex-grow: 1;
+    flex: 1 1 0px;
+    color: #FFFFFF;
+    border-width: 2px;
+    text-align: center;
+    font-size: x-large;
+    vertical-align: middle;
+    border: 1px solid #7e7e7e;
+    border-radius: 8px;
+}
+
+.feature3 {
+    padding: 30px;
+    border: 1px solid #7e7e7e;
+    flex-grow: 1;
+    flex: 1 1 0px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.feature1:hover {
+    background-color: #05AC77;
+}
+
+.feature2:hover {
+    background-color: #05AC77;
+}
+
+.feature3:hover {
+    background-color: #05AC77;
+}
+
+
+.screenshots-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.dashboard {
+    position: relative;
+}
+
+.dashboard-light {
+    width: 300px;
+    height: 600px;
+    transform: translateX(30%);
+    position: absolute;
+
+}
+
+.dashboard-dark {
+    width: 300px;
+    height: 600px;
+}
+
+.laws {
+    width: 300;
+    height: 600;
+}
+
+.law {
+    width: 300;
+    height: 600;
+}
+
