@@ -6,11 +6,17 @@ body {
     padding: 30px;
 }
 
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+ 
 span {
     color: #05AC77;
 }
 
-.title {
+.main-title {
     font-size: 100px;
     font-family: 'Roboto';
     font-style: bold;
@@ -19,8 +25,11 @@ span {
 
 .description {
     width: 50%;
+    margin-top: 0;
     color: #FFFFFF;
+    opacity: 80%;
     font-size: 24px;
+    font-family: 'Roboto';
     font-weight: 500;
 }
 
@@ -29,69 +38,64 @@ span {
     align-items: stretch;
     justify-content: space-evenly;;
     display: flex;
+    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
     gap: 16px;
     transition: all 2s;
 }
 
 .feature1 {
     padding: 30px;
+    margin-top: 60;
     flex-grow: 1;
     flex: 1 1 0px;
-    border: 1px solid #7e7e7e;
+    background-color: #05AC77;
     text-align: center;
     font-size: x-large;
+    font-family: 'Roboto';
+    border-radius: 6px;
     color: #FFFFFF;
+    margin-bottom: 0;
     vertical-align: middle;
-    border-radius: 8px;
 }
 
 .feature2 {
     padding: 30px;
     flex-grow: 1;
     flex: 1 1 0px;
+    margin-top: 60;
     color: #FFFFFF;
     border-width: 2px;
+    background-color: #05AC77;
     text-align: center;
+    font-family: 'Roboto';
+    border-radius: 6px;
     font-size: x-large;
     vertical-align: middle;
-    border: 1px solid #7e7e7e;
-    border-radius: 8px;
 }
 
 .feature3 {
     padding: 30px;
-    border: 1px solid #7e7e7e;
     flex-grow: 1;
     flex: 1 1 0px;
+    margin-top: 60;
     color: #FFFFFF;
+    background-color: #05AC77;
     vertical-align: middle;
+    font-family: 'Roboto';
     font-size: x-large;
+    border-radius: 6px;
     text-align: center;
-    border-radius: 8px;
 }
-
-.feature1:hover {
-    background-color: #05AC77;
-}
-
-.feature2:hover {
-    background-color: #05AC77;
-}
-
-.feature3:hover {
-    background-color: #05AC77;
-}
-
 
 .screenshots-container {
-    margin-top: 50px;
+    margin-top: 150;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 16px;
 }
 
 .dashboard {
@@ -101,8 +105,6 @@ span {
 .dashboard-light {
     width: 300px;
     height: 600px;
-    transform: translateX(30%);
-    position: absolute;
 
 }
 
@@ -112,12 +114,68 @@ span {
 }
 
 .laws {
-    width: 300;
-    height: 600;
+    width: 300px;
+    height: 600px;
 }
 
 .law {
-    width: 300;
-    height: 600;
+    width: 300px;
+    height: 600px;
 }
 
+.downloads {
+    font-size: 100px;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.downloads-number {
+    margin-bottom: 0;
+    margin-top: 120;
+}
+
+
+.police {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+
+.main-feature-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.main-feature-description {
+    font-size: 20px;
+    margin-top: 150px;
+    font-family: 'Roboto';
+    font-style: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.playstore-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.playstore-section-title {
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-style: bold;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
