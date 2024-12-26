@@ -142,3 +142,7 @@ span {
     flex-wrap: wrap;
     gap: 16px;
 }
+
+a {
+    text-decoration: none;
+}
